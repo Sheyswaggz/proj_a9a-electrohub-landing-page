@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>ElectroHub - Premium Electronics Store | Latest Tech Deals</title>
+    <meta
+      name="description"
+      content="Discover the latest electronics and tech gadgets at ElectroHub. Shop smartphones, laptops, smart home devices, and more with fast shipping and expert support."
+    />
+    <meta
+      name="keywords"
+      content="electronics, smartphones, laptops, tech gadgets, smart home, ElectroHub"
+    />
+    <meta name="author" content="ElectroHub" />
+
+    <meta property="og:title" content="ElectroHub - Premium Electronics Store" />
+    <meta
+      property="og:description"
+      content="Discover the latest electronics and tech gadgets at ElectroHub. Shop smartphones, laptops, smart home devices, and more."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://electrohub.com" />
+    <meta
+      property="og:image"
+      content="https://electrohub.com/images/og-image.jpg"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ElectroHub - Premium Electronics Store" />
+    <meta
+      name="twitter:description"
+      content="Discover the latest electronics and tech gadgets at ElectroHub."
+    />
+    <meta
+      name="twitter:image"
+      content="https://electrohub.com/images/twitter-card.jpg"
+    />
+
+    <link rel="canonical" href="https://electrohub.com" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+                950: '#082f49',
+              },
+              secondary: {
+                50: '#fdf4ff',
+                100: '#fae8ff',
+                200: '#f5d0fe',
+                300: '#f0abfc',
+                400: '#e879f9',
+                500: '#d946ef',
+                600: '#c026d3',
+                700: '#a21caf',
+                800: '#86198f',
+                900: '#701a75',
+                950: '#4a044e',
+              },
+              accent: {
+                50: '#fff7ed',
+                100: '#ffedd5',
+                200: '#fed7aa',
+                300: '#fdba74',
+                400: '#fb923c',
+                500: '#f97316',
+                600: '#ea580c',
+                700: '#c2410c',
+                800: '#9a3412',
+                900: '#7c2d12',
+                950: '#431407',
+              },
+              neutral: {
+                50: '#fafafa',
+                100: '#f5f5f5',
+                200: '#e5e5e5',
+                300: '#d4d4d4',
+                400: '#a3a3a3',
+                500: '#737373',
+                600: '#525252',
+                700: '#404040',
+                800: '#262626',
+                900: '#171717',
+                950: '#0a0a0a',
+              },
+            },
+            fontFamily: {
+              sans: [
+                'Inter',
+                'system-ui',
+                '-apple-system',
+                'BlinkMacSystemFont',
+                'Segoe UI',
+                'Roboto',
+                'Helvetica Neue',
+                'Arial',
+                'sans-serif',
+              ],
+              display: ['Poppins', 'Inter', 'system-ui', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      :root {
+        --color-primary: #0ea5e9;
+        --color-secondary: #d946ef;
+        --color-accent: #f97316;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+          'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        line-height: 1.6;
+        color: #171717;
+        background-color: #ffffff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #0ea5e9;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+        z-index: 100;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header
+      role="banner"
+      class="bg-white shadow-sm sticky top-0 z-50"
+      aria-label="Site header"
+    >
+      <nav
+        role="navigation"
+        aria-label="Main navigation"
+        class="container mx-auto px-4 py-4"
+      >
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <a
+              href="/"
+              class="text-2xl font-display font-bold text-primary-600"
+              aria-label="ElectroHub home"
+            >
+              ElectroHub
+            </a>
+          </div>
+
+          <ul role="list" class="hidden md:flex items-center space-x-8">
+            <li>
+              <a
+                href="#products"
+                class="text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Products
+              </a>
+            </li>
+            <li>
+              <a
+                href="#features"
+                class="text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Features
+              </a>
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                class="text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+
+          <div class="flex items-center space-x-4">
+            <button
+              type="button"
+              class="md:hidden text-neutral-700 hover:text-primary-600"
+              aria-label="Open menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="mobile-menu"
+          class="hidden md:hidden mt-4"
+          role="menu"
+          aria-label="Mobile navigation"
+        >
+          <ul role="list" class="flex flex-col space-y-4">
+            <li role="none">
+              <a
+                href="#products"
+                role="menuitem"
+                class="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Products
+              </a>
+            </li>
+            <li role="none">
+              <a
+                href="#features"
+                role="menuitem"
+                class="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Features
+              </a>
+            </li>
+            <li role="none">
+              <a
+                href="#testimonials"
+                role="menuitem"
+                class="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li role="none">
+              <a
+                href="#contact"
+                role="menuitem"
+                class="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <section
+        id="hero"
+        class="py-20 bg-gradient-to-br from-primary-50 to-secondary-50"
+        aria-labelledby="hero-title"
+      >
+        <div class="container mx-auto px-4">
+          <div class="text-center max-w-4xl mx-auto">
+            <h1
+              id="hero-title"
+              class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-neutral-900 mb-6"
+            >
+              Welcome to ElectroHub
+            </h1>
+            <p class="text-lg md:text-xl text-neutral-700 mb-8">
+              Discover the latest electronics and tech gadgets with unbeatable
+              prices and expert support
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="products"
+        class="py-16"
+        aria-labelledby="products-title"
+      >
+        <div class="container mx-auto px-4">
+          <h2
+            id="products-title"
+            class="text-3xl md:text-4xl font-display font-bold text-center text-neutral-900 mb-12"
+          >
+            Featured Products
+          </h2>
+        </div>
+      </section>
+
+      <section
+        id="features"
+        class="py-16 bg-neutral-50"
+        aria-labelledby="features-title"
+      >
+        <div class="container mx-auto px-4">
+          <h2
+            id="features-title"
+            class="text-3xl md:text-4xl font-display font-bold text-center text-neutral-900 mb-12"
+          >
+            Why Choose ElectroHub
+          </h2>
+        </div>
+      </section>
+
+      <section
+        id="testimonials"
+        class="py-16"
+        aria-labelledby="testimonials-title"
+      >
+        <div class="container mx-auto px-4">
+          <h2
+            id="testimonials-title"
+            class="text-3xl md:text-4xl font-display font-bold text-center text-neutral-900 mb-12"
+          >
+            What Our Customers Say
+          </h2>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="py-16 bg-neutral-50"
+        aria-labelledby="contact-title"
+      >
+        <div class="container mx-auto px-4">
+          <h2
+            id="contact-title"
+            class="text-3xl md:text-4xl font-display font-bold text-center text-neutral-900 mb-12"
+          >
+            Get In Touch
+          </h2>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      role="contentinfo"
+      class="bg-neutral-900 text-neutral-300 py-12"
+      aria-label="Site footer"
+    >
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <h3 class="text-xl font-display font-bold text-white mb-4">
+              ElectroHub
+            </h3>
+            <p class="text-sm">
+              Your trusted source for premium electronics and tech gadgets.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <ul role="list" class="space-y-2">
+              <li>
+                <a
+                  href="#products"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Products
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#features"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#testimonials"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold text-white mb-4">Support</h4>
+            <ul role="list" class="space-y-2">
+              <li>
+                <a
+                  href="/help"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/shipping"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Shipping Info
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/returns"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Returns
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/warranty"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Warranty
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold text-white mb-4">Legal</h4>
+            <ul role="list" class="space-y-2">
+              <li>
+                <a
+                  href="/privacy"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/terms"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/cookies"
+                  class="text-sm hover:text-primary-400 transition-colors duration-200"
+                >
+                  Cookie Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-neutral-800 pt-8 text-center text-sm"
+        >
+          <p>
+            &copy; <time datetime="2024">2024</time> ElectroHub. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module">
+      const mobileMenuButton = document.querySelector('[aria-controls="mobile-menu"]');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+          const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+          mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+            if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+              mobileMenu.classList.add('hidden');
+              mobileMenuButton.setAttribute('aria-expanded', 'false');
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
